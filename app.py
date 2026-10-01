@@ -4,7 +4,7 @@ import torch
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import Response
 from pydantic import BaseModel
-from scipy.io.wavfile import write as wav_write
+from scipy.io.wavfile import write as wav_write\nimport librosa
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, VitsModel
 
 app = FastAPI(title="BUMANI Climate Voice API")
