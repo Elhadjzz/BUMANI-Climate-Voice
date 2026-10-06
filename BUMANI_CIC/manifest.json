@@ -1,0 +1,33 @@
+{
+  "name": "BUMANI_CIC",
+  "description": "Climate Information Corpus for English–Bambara, English–Hausa, and English–Mooré terminology.",
+  "version": "application-oriented release",
+  "records_total": 4899,
+  "strict_common_english_headwords_case_normalized": 1608,
+  "files": {
+    "english_bambara.csv": {
+      "rows": 1633,
+      "unique_english_casefold": 1633,
+      "sha256": "eabf8246492a6445f130117da6acc4c04706c921ba9309a534aaeded2e08ab6e",
+      "bytes": 53963
+    },
+    "english_hausa.csv": {
+      "rows": 1633,
+      "unique_english_casefold": 1632,
+      "sha256": "545ec4f222dbeac87163a45da5b7196ebcde1b7afbc349b8e9da8a2cf4420717",
+      "bytes": 50528
+    },
+    "english_moore.csv": {
+      "rows": 1633,
+      "unique_english_casefold": 1633,
+      "sha256": "0b307e0d96359c4571507db5cf2920d5e5afba9731377c16c2458fbd67539b0c",
+      "bytes": 67578
+    }
+  },
+  "notes": [
+    "Each CSV contains 1,633 bilingual records plus a header row.",
+    "Bambara and Mooré each contain 1,633 unique case-normalized English headwords.",
+    "Hausa contains 1,632 unique case-normalized English headwords across 1,633 records.",
+    "The three-language strict case-normalized English intersection contains 1,608 headwords."
+  ]
+}
